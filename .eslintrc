@@ -13,8 +13,8 @@
         "prettier"
     ],
     "rules": {
-        "no-loops/no-loops": 1, // 
-        "no-console": 1, // Remember, this means error!,
+        "no-loops/no-loops": 2, // 
+        "no-console": 2, // Remember, this means error!,
         "prettier/prettier": 2 // Means
     }
 }
