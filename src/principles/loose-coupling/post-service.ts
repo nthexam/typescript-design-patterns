@@ -6,8 +6,6 @@ import { IExportPostService } from './iexport-interface';
 export class PostService implements IPostService {
   private _filName: string = __dirname + '/posts.json';
 
-  constructor() {}
-
   async export(service: IExportPostService): Promise<string> {
     const posts = await this.getAll();
     return service.export(posts);
@@ -30,7 +28,7 @@ export class PostService implements IPostService {
     return new Promise((resolve, reject) => {
       this.getAll().then((posts) => {
         posts.push(post);
-        let data = JSON.stringify(posts);
+        const data = JSON.stringify(posts);
         fs.writeFile(this._filName, data, (err) => {
           if (err) {
             reject();

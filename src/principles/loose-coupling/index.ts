@@ -4,7 +4,7 @@ import { PostService } from './post-service';
 
 export class LooseCoupling {
   public run = () => {
-    let mockService = new PostService();
+    const mockService = new PostService();
 
     mockService.export(new JsonExportService()).then((result) => {
       console.log(result);

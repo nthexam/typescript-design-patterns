@@ -3,7 +3,7 @@ import { test } from './test';
 
 export class Singleton {
   public run = () => {
-    let tracker = StatsTracker.instance;
+    const tracker = StatsTracker.instance;
     tracker.buttonClicks = 10;
     tracker.facebookShares = 20;
     tracker.twitterShares = 30;

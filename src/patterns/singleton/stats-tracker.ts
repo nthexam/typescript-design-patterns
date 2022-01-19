@@ -1,8 +1,8 @@
 export class StatsTracker {
-  buttonClicks: number = 0;
-  facebookShares: number = 0;
-  twitterShares: number = 0;
-  widgetViews: number = 0;
+  buttonClicks  = 0;
+  facebookShares = 0;
+  twitterShares = 0;
+  widgetViews = 0;
 
   constructor() {
     if (StatsTracker._instance) {
