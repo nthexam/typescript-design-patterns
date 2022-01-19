@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Test Post File 1",
+    "body": "Test body 1",
+    "postedBy": "Me1"
+  },
+  {
+    "id": 2,
+    "title": "Test Post File 2",
+    "body": "Test body 2",
+    "postedBy": "Me2"
+  },
+  {
+    "id": 3,
+    "title": "Test Post File 3",
+    "body": "Test body 3",
+    "postedBy": "Me3"
+  },
+  {
+    "id": 4,
+    "title": "Test Post Fule 4",
+    "body": "Test body 4",
+    "postedBy": "Me4"
+  }
+]

@@ -1,5 +1,19 @@
-import { App } from "./singleton/app";
+import { Factory } from './patterns/factory';
+import { Singleton } from './patterns/singleton';
+import { LooseCoupling } from './principles/loose-coupling';
 
-let a = new App();
+console.log('\n ##################### SINGELTON PATTERN ################## \n');
+let singleton = new Singleton();
+singleton.run();
 
-a.run()
+console.log('\n ##################### FACTORY PATTERN ################## \n');
+
+let factory = new Factory();
+factory.run();
+
+console.log(
+  '\n ##################### PRINCIPLE: LOOSE COUPLING  ################## \n'
+);
+
+let looseCoupling = new LooseCoupling();
+looseCoupling.run();

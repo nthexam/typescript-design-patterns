@@ -8,7 +8,6 @@ export class StatsTracker {
     if (StatsTracker._instance) {
       throw new Error('Cannot initialise singleton class using new');
     }
-
     StatsTracker._instance = this;
   }
 
