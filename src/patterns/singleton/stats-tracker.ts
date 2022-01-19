@@ -1,5 +1,5 @@
 export class StatsTracker {
-  buttonClicks  = 0;
+  buttonClicks = 0;
   facebookShares = 0;
   twitterShares = 0;
   widgetViews = 0;
