@@ -15,6 +15,6 @@
     "rules": {
         "no-loops/no-loops": 1, // 
         "no-console": 1, // Remember, this means error!,
-        "prettier/prettier": 2 // Means
+        "prettier/prettier": 1 // Means
     }
 }
