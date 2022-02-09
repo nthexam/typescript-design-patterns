@@ -1,5 +1,5 @@
-import File from './dir-example/file';
-import Folder from './dir-example/folder';
+import File from './test-revise/file';
+import Folder from './test-revise/folder';
 
 export class Composite {
   public run = () => {
@@ -17,6 +17,8 @@ export class Composite {
     FOLDER_B.attach(FILE_4);
     FILESYSTEM.attach(FOLDER_B);
     FILESYSTEM.dir('');
+
+    console.log('-----');
 
     // now move FOLDER_A and its contents to FOLDER_B
     console.log();
