@@ -1,4 +1,4 @@
-import { Strategy } from './patterns/behavioral/strategy/basic-example';
+import { StrategyErrorLogging } from './patterns/behavioral/strategy/eror-logging-multiple-strategy';
 
-const strategy = new Strategy();
+const strategy = new StrategyErrorLogging();
 strategy.run();
