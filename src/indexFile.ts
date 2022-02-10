@@ -6,6 +6,7 @@ import { Singleton } from './patterns/creational/singleton';
 import { ObjectPoolPattern } from './patterns/creational/object-pool';
 import { Adapter } from './patterns/structural/adapter';
 import { Composite } from './patterns/structural/composit';
+import { Strategy } from './patterns/behavioral/strategy';
 
 console.log('\n ##################### SINGELTON PATTERN ################## \n');
 const singleton = new Singleton();
@@ -44,3 +45,8 @@ console.log('\n ##################### COMPOSITE PATTERN ################## \n');
 
 const composite = new Composite();
 composite.run();
+
+console.log('\n ##################### STRATEGY PATTERN ################## \n');
+
+const strategy = new Strategy();
+strategy.run();

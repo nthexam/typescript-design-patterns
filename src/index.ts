@@ -1,4 +1,4 @@
-import { Composite } from './patterns/structural/composit';
+import { Strategy } from './patterns/behavioral/strategy/basic-example';
 
-const composite = new Composite();
-composite.run();
+const strategy = new Strategy();
+strategy.run();
