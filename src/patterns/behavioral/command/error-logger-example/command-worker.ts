@@ -11,6 +11,7 @@ export class CommandWorker {
   }
 
   registerCommand(command: ICommand) {
+    console.log('Registering command');
     if (!this._commands.find((c) => c == command)) {
       this._commands.push(command);
     }

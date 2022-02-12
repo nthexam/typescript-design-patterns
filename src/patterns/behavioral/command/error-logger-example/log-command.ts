@@ -12,7 +12,6 @@ export class LogCommand implements ICommand {
   execute(): Promise<any> {
     return new Promise((resolve, reject) => {
       const contents = `${this._logCommandParams.title}: ${this._logCommandParams.body} - ${this._logCommandParams.error}\n`;
-      console.log(contents);
       fs.appendFile(
         this._logCommandParams.filename,
         contents,
