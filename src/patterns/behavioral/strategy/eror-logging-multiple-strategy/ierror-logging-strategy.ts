@@ -1,3 +1,3 @@
 export interface IErrorLoggingStrategy {
-    log(err: Error): Promise<any>;
+  log(err: Error): Promise<any>;
 }

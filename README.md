@@ -1,1 +1,1 @@
-WIP 
+<img src="umlcheatsheet.jpeg" width="80%"/>
