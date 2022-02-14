@@ -42,4 +42,3 @@ const main = () => {
 };
 
 main();
-

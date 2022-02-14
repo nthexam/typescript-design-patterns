@@ -1,13 +1,13 @@
 class Command1 implements ICommand {
-    // A Command object, that implements the ICommand interface and
-    // runs the command on the designated receiver
-    #receiver: Receiver;
+  // A Command object, that implements the ICommand interface and
+  // runs the command on the designated receiver
+  #receiver: Receiver;
 
-    constructor(receiver: Receiver) {
-        this.#receiver = receiver;
-    }
+  constructor(receiver: Receiver) {
+    this.#receiver = receiver;
+  }
 
-    execute() {
-        this.#receiver.runCommand1();
-    }
+  execute() {
+    this.#receiver.runCommand1();
+  }
 }

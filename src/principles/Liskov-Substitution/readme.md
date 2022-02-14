@@ -3,7 +3,3 @@ Suppose we’re building an Error handler for a particular web application and t
 Database Error
 Connection Error
 Both of the above error classes extend an abstract class called CustomError
-
-//Test
-// Test 23
-// Test 3

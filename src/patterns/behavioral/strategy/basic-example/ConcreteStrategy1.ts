@@ -1,6 +1,5 @@
 import { Strategy } from './IStrategy';
 
-
 export class ConcreteStrategy1 implements Strategy {
   public execute(name: string): void {
     console.log(

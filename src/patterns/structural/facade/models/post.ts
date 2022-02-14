@@ -1,9 +1,9 @@
-import { User } from "./user";
+import { User } from './user';
 
 export interface Post {
-    id: number;
-    userId: number;
-    user: User;
-    title: string;
-    body: string;
+  id: number;
+  userId: number;
+  user: User;
+  title: string;
+  body: string;
 }

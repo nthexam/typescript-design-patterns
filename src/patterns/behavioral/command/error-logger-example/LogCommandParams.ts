@@ -1,4 +1,3 @@
-
 export interface LogCommandParams {
   title: string;
   body: string;
